@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container{
+  display: flex;
+  margin-top: 10px;
+}
+
+.others{
+  flex: 4;
+}
+
+a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: inherit;
+}
+
+.link{
+  width: 100%;
+}
